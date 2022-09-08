@@ -5,17 +5,17 @@ from os import environ
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'LuciferMoringstar_Robot')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+SESSION = environ.get('AgBGC1vHN7PnFQmZHJG2X0Qv4UbKg03iL-3fxn7Ui_WeovHtmxmWV0Tqs6gg-a7Ss6eLK4y6bDaJIrkCVdw7vUewiqLMKCxBFFDQMpNufVzW8XicE2wNrvJARY-QYRYW-zaq6sxmrDoe46reV2b3H6WHhQb6hpVl-coSliB7fxNS7O-tYbeJzO0mrdz0buZTMn1JJq5mysr7wcxHilMnHFF8-2Zkxnvx05ZoNTQ8pkmiUgS2cQJ3r3XdDtbuTllf-s4aMl3PUoJsJYbRyUYEGV8p5GPunaz_M_DPpW5Vn2tOgpiPTVntLIA-xyfbJdncubAzpB84SmYYp7bxUT7WJpFEfp5VqAA', 'LuciferMoringstar_Robot')
+API_ID = int(environ['10300036'])
+API_HASH = environ['79c295e05c970ddd724f0762ba275104']
+BOT_TOKEN = environ['5482727166:AAGHP_ovslWbAOLMCSepqO0Si5QGyYfel7I']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
-BROADCAST_CHANNEL = int(os.environ.get("BROADCAST_CHANNEL", ""))
-ADMIN_ID = set(int(x) for x in os.environ.get("ADMIN_ID", "").split())
+BROADCAST_CHANNEL = int(os.environ.get("https://t.me/KukruzF", ""))
+ADMIN_ID = set(int(x) for x in os.environ.get("2124305832", "").split())
 DB_URL = os.environ.get("DATABASE_1", "")
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST", True))
 
