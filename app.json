@@ -1,6 +1,6 @@
 {
-    "name": "Auto Filter Bot V3",
-    "description": "A greater auto filter bot with features like IMDb support,inline mode,broadcast feature etc..",
+    "name": "Marvel Thor Bot",
+    "description": "A greater auto filter bot with features like IMDb support,inline mode,broadcast feature salam yaetc..",
     "logo":"https://telegra.ph/file/ad9cb7fc42ec0e5e6d006.jpg",
     "keywords": [
       "telegram",
@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/DalinMathew/AutoFilterBotV3",
-    "repository": "https://github.com/DalinMathew/AutoFilterBotV3",
+    "repository": "https://github.com/ruslan6677/AutoFilterBotV3",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
